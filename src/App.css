@@ -1,0 +1,42 @@
+.App{
+  background-color: #fefefe;
+  height: 100vh;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.blog-card {
+  width: 300px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card .card-body {
+  padding: 15px;
+}
+
+.blog-card .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+button{
+  background-color: green;
+  color: white;
+  
+}
