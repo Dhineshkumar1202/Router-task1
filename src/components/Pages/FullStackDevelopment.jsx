@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import fsdImage1 from '../../assets/images-4/FSD-1.jpg';
-import fsdImage2 from '../../assets/images-4/FSD-2.jpg';
-import fsdImage3 from '../../assets/images-4/FSD-3.jpg';
+import fsdImage2 from '../../assets/images-4/FSD-2.webp';
+import fsdImage3 from '../../assets/images-4/FSD-3.webp';
 
 export const FullStackDevelopment = () => {
   return (
